@@ -1,6 +1,7 @@
 # 第2次作業(4%)
 - 學號：11525120
 - 姓名:周羿澄
+- 
 
 ## 作業目標
 1. VSCode安裝：🔗[https://code.visualstudio.com/Download](https://code.visualstudio.com/Download)
@@ -36,7 +37,7 @@
       6. 功能：(如吸引客戶消費咖啡)
    3. 儲存檔案
    4. 在VSCode上提交及推送
-      1. 版本說明：⚠️(必填)
+      1. 版本說明：(必填)
       2. 提交與推送
 
 ## 評分方式
