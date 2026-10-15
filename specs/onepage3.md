@@ -1,4 +1,4 @@
-# 藍天咖啡網站｜逆向詳細規格
+# 籃球咖啡網站｜逆向詳細規格
 
 > 來源檔案：`WebPage/outline/index.html`  
 > 文件用途：將目前已完成的單頁網站轉化為可維護、可精確修改與可重新實作的規格。  
@@ -8,7 +8,7 @@
 
 | 項目 | 規格 |
 |---|---|
-| 品牌名稱 | 藍天咖啡（BLUE SKY COFFEE） |
+| 品牌名稱 | 籃球咖啡（BLUE SKY COFFEE） |
 | 網站類型 | 精品手沖咖啡品牌的一頁式形象／商品導覽網站 |
 | 語言 | 繁體中文，HTML `lang="zh-Hant"` |
 | 目標受眾 | 喜愛精品咖啡、單一產區豆與手沖日常的消費者 |
@@ -35,8 +35,8 @@
 <html lang="zh-Hant">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>藍天咖啡｜讓風味，慢慢抵達</title>
-<meta name="description" content="藍天咖啡，為手沖咖啡愛好者挑選當季精品咖啡豆，讓每一杯都清澈、明亮、值得細品。">
+<title>籃球咖啡｜讓風味，慢慢抵達</title>
+<meta name="description" content="籃球咖啡，為手沖咖啡愛好者挑選當季精品咖啡豆，讓每一杯都清澈、明亮、值得細品。">
 ```
 
 - 所有頁內連結應保留可見焦點樣式。
@@ -89,7 +89,7 @@
 ```text
 header#top
 └─ nav[aria-label="主要導覽"]
-   ├─ 品牌連結（品牌圓形 B 標記、藍天咖啡、BLUE SKY COFFEE）
+   ├─ 品牌連結（品牌圓形 B 標記、籃球咖啡、BLUE SKY COFFEE）
    ├─ 手機版選單按鈕
    └─ 導覽連結
       ├─ #story　我們的故事
@@ -121,7 +121,7 @@ header#top
 - Eyebrow：`HAND BREWED · SLOWLY ROASTED`
 - H1：`讓風味，在藍天下慢慢抵達。`
   - 「藍天」使用 `--sky`。
-- 說明：`藍天咖啡為喜歡手沖的您，挑選值得細品的單一產區咖啡豆。從第一縷花香，到最後一口回甘，每一杯都有屬於自己的晴朗天氣。`
+- 說明：`籃球咖啡為喜歡手沖的您，挑選值得細品的單一產區咖啡豆。從第一縷花香，到最後一口回甘，每一杯都有屬於自己的晴朗天氣。`
 - 主按鈕：`探索本季咖啡豆 →`，連至 `#coffee`，沙金底深藍字。
 - 次按鈕：`認識藍天`，連至 `#story`，白色描邊。
 - 註記：`TAIPEI · TAIWAN · EST. 2025`
@@ -226,7 +226,7 @@ header#top
 
 | 欄位 | 內容 |
 |---|---|
-| 品牌欄 | 品牌標記、`藍天咖啡 / BLUE SKY COFFEE`，以及「為喜愛手沖咖啡的你，留下一段慢慢品味、微微放晴的時間。」 |
+| 品牌欄 | 品牌標記、`籃球咖啡 / BLUE SKY COFFEE`，以及「為喜愛手沖咖啡的你，留下一段慢慢品味、微微放晴的時間。」 |
 | 網站主題 | `我們的故事`、`本季選豆`、`沖煮日常`，均為頁內錨點 |
 | 聯絡我們 | `hello@bluesky.coffee`、`台中市西屯區僑光路 100 號`、`每日 10:00 — 19:00` |
 | 地址動作 | 點擊 台中市西屯區僑光路 100 號 時，連結至 Google Maps：https://www.google.com/maps/search/?api=1&query=僑光科技大學 |
@@ -293,7 +293,7 @@ Footer 背景為更深的 `#031c31`，主要文字為低透明白，欄位標題
 ## 8. 無障礙與可用性
 
 - 導覽 `<nav>` 必須有 `aria-label="主要導覽"`。
-- 品牌首頁連結需有 `aria-label="回到藍天咖啡首頁"`。
+- 品牌首頁連結需有 `aria-label="回到籃球咖啡首頁"`。
 - 手機選單按鈕具備 `aria-controls="navLinks"`、動態 `aria-expanded` 與動態說明文字。
 - 純裝飾的 Hero 與沖煮插畫容器使用 `aria-hidden="true"`。
 - Email 欄位使用可辨識的 `aria-label`，且有原生 `required` 驗證。
