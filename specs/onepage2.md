@@ -208,7 +208,7 @@ header#top
 **影片崁入**
 
 - 使用 `<iframe>` 元素顯示
-- Youtube編號：l69T1wxE?si
+- Youtube編號：l69T1wxE
 - 寬度：560px
 - 高度：315px
 
