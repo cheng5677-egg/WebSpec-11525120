@@ -1,6 +1,7 @@
 # 第5次作業(4%)
 - 學號：11525120
 - 姓名：周羿澄
+- 信箱：wenshan511813@gmail.com
 
 ## 作業目標
 1. VSCode複製GitHub上2個儲存庫Repo
