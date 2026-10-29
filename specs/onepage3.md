@@ -124,6 +124,14 @@ header#top
 - 圖片寬度：400px
 - 圖片高度：300px
 
+**右欄圖片**
+
+- 檔案位置
+- `images\egg.jpg`
+- 使用 `<img>` 元素顯示
+- 圖片寬度：400px
+- 圖片高度：300px
+
 **文案**
 
 - Eyebrow：`HAND BREWED · SLOWLY ROASTED`
